@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1024px) {
+  * {
+    width: 100%;
+  }
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html {
+  height: auto;
+}
+
+button {
+  border-radius : 2px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.navBar {
+  float: left;
+  width: 100%;
+  max-height: 47px;
+  position: fixed;
+  background-color: grey;
+}
+
+#nav-title {
+  color: white;
+  width:25%;
+  padding-top: 8px;
+  padding-left: 5px;
+  float: left;
+  min-width: fit-content;
+}
+
+#nav-title-img {
+  float: left;
+  height: 55px;
+  width: 55px;
+}
+
+.nav-links-container {
+  padding-top: 8px;
+  max-width: 20%;
+  float: right;
+}
+
+button.nav-links {
+  border: none;
+  background-color: grey;
+  color: white;
+  float: right;
+  padding-right: 75px;
+  font-size: 25px;
+  max-height: 29px;
+  white-space: nowrap;
+}
+
+button.nav-links:hover, button.nav-links:focus {
+  color: black;
+  cursor: pointer;
+}
+
+button.nav-links:hover + #cart, button.nav-links:focus + #cart {
+  display: block;
+}
+
+#banner {
+  width: 100%;
+}
+
+.item-container {
+  background-color: grey;
+  min-height: 800px;
+  width: 75%;
+  margin: 100px 200px;
+  z-index: -1;
+  text-align: center;
+}
+
+
